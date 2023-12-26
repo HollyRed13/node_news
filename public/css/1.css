@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(218, 171, 252);
+    color:rgb(62, 7, 59);
+}
+form{
+    border-color: rgb(175, 97, 19);
+    border-style: dotted;
+    padding: 10px;
+    display: inline-block;
+}
+a{
+    color: rgb(249, 0, 233);
+    font-size: 20px;
+}
