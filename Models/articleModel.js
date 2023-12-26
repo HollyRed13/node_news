@@ -2,7 +2,7 @@ const connection = require("../mysql.js")
 
 exports.getAll=async function(req,res){ 
     let arr=[];
-    await connection.query("SELECT * FROM article")
+    await connection.query("SELECT * FROM news")
     .then(data=> {
         console.log("data"); 
         console.log(data); 
@@ -20,7 +20,7 @@ exports.getAll=async function(req,res){
 };
 exports.getOne=async function(req,res,idArticle){
     let arr=[];
-    let sql="select * from article where idArticle=?";
+    let sql="select * from news where idArticle=?";
     console.log(req);
     filter=[req];
     console.log(req);

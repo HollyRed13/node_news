@@ -24,7 +24,5 @@ app.use('/', index);
 let article = require('./routes/article');
 app.use('/article', article);
 
-let admin= require('./routes/admin');
-app.use('/admin', admin);
 
 app.listen(3000);
