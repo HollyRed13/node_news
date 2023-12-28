@@ -15,14 +15,12 @@ app.use(bodyParser.urlencoded({extended: true}));//Для принятия да�
 // формы. Обязательно!
 app.use(bodyParser.json());//Для принятия данных из формы.Обязательно!
 
-//let index = require('./routes/index');
-//app.use('/', index);
 
 let index = require('./routes/article');
 app.use('/', index);
 
 let article = require('./routes/article');
-app.use('/article', article);
+app.use('/:idArticle', article);
 
 
 app.listen(3000);

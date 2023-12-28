@@ -1,4 +1,4 @@
-const Models = require("../Models/articleModel.js");
+/*const Models = require("../Models/articleModel.js");
 
 exports.getArticleAll = async function(req, res){
     let m=await Models.getAll();
@@ -9,4 +9,4 @@ exports.getArticle = async function(req,res){
     console.log(req.params);
     let m=await Models.getOne(req.params.idArticle);
     res.render('articleShow', {data:m});
-};
+};*/

@@ -1,4 +1,4 @@
-let express = require('express');
+/*let express = require('express');
 var router = express.Router();
 var bodyParser = require('body-parser');
 var urlencodedparser = bodyParser.urlencoded({ extended:false});
@@ -7,4 +7,4 @@ const homeController = require("../controllers/homeController.js");
 
 router.get('/',homeController.getIndex);
 
-module.exports = router;
+module.exports = router;*/
